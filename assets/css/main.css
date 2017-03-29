@@ -1547,36 +1547,28 @@
 						background: #3dbaf4;
 					}
 
-				ul.social li a.fa-dribbble {
-					background: #c4376b;
+
+
+
+
+				ul.social li a.fa-youtube {
+					background: #bb0000;
+					color: white;
 				}
 
-					ul.social li a.fa-dribbble:hover {
-						background: #d4477b;
+					ul.social li a.fa-youtube:hover {
+						background: #bb0000;
+						color: white;
 					}
 
-				ul.social li a.fa-linkedin {
-					background: #006599;
+				ul.social li a.fa-instagram {
+					background: #125688;
+					color: white;
 				}
 
-					ul.social li a.fa-linkedin:hover {
-						background: #1075a9;
-					}
-
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
-				}
-
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
-					}
-
-				ul.social li a.fa-google-plus {
-					background: #da2713;
-				}
-
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
+					ul.social li a.fa-instagram:hover {
+						background: #125688;
+						color: white;
 					}
 
 	ol.default {
