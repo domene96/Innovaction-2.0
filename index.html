@@ -192,24 +192,17 @@
 					<section id="footer" class="container">
 						<div class="row">
 							<div class="8u 24u(mobile)">
-								<form id="contact" action="" method="post">
-									<h3>¿Interesado?</h3>
-									<h4>Deja tus datos y te mandaremos un correo.</h4>
-									<fieldset>
-										<input placeholder="Nombre" type="text" tabindex="1" required autofocus>
-									</fieldset>
-									<fieldset>
-										<input placeholder="Correo Electronico" type="email" tabindex="2" required>
-									</fieldset>
-									<fieldset>
-										<input placeholder="Teléfono" type="tel" tabindex="3" required>
-									</fieldset>
-									<fieldset>
-										<textarea placeholder="Mensaje ...." tabindex="5" required></textarea>
-									</fieldset>
-									<fieldset>
-										<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
-									</fieldset>
+								<h1>Elegant Contact Form</h1>
+								<form class="cf">
+									<div class="half left cf">
+									    <input type="text" id="input-name" placeholder="Nombre">
+									    <input type="email" id="input-email" placeholder="Correo Electronico">
+									    <input type="text" id="input-subject" placeholder="Tema">
+								  	</div>
+								  	<div class="half right cf">
+								    	<textarea name="message" type="text" id="input-message" placeholder="Mensaje"></textarea>
+									</div>
+									<input type="submit" value="Enviar" id="input-submit">
 								</form>
 							</div>
 							<div class="4u 12u(mobile)">
